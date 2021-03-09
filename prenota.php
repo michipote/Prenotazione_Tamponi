@@ -33,3 +33,5 @@ $stmt->execute(
         'giorno' => $data_ora
     ]
 );
+
+echo 'Riempimento riuscito';
