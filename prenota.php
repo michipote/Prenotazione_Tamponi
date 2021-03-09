@@ -6,7 +6,7 @@ ini_set('display_errors', 1);
 ini_set('log_errors', 0);
 
 $host = 'localhost';
-$db = 'tamponi';
+$db = 'prenotazione_tamponi';
 $user = 'root';
 $pass = '';
 
@@ -18,10 +18,10 @@ $pdo = new PDO($dsn, $user, $pass);
 
 //Variabili valorizzate tramite POST
 $codice_fiscale = $_POST['codice'];
-$giorno = $_POST['giorno'];
+$data_ora = $_POST['giorno'];
 
 //Query di inserimento preparata
-$sql = "INSERT INTO prenotazioni VALUES(null, :codice_fiscale, :giorno)";
+$sql = "INSERT INTO prenotazione VALUES(null, :codice_fiscale, :giorno)";
 
 //Inviamo la query al database che la tiene in pancia
 $stmt = $pdo->prepare($sql);
@@ -30,6 +30,6 @@ $stmt = $pdo->prepare($sql);
 $stmt->execute(
     [
         'codice_fiscale' => $codice_fiscale,
-        'giorno' => $giorno
+        'giorno' => $data_ora
     ]
 );
