@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f319d1f1-3371-4a6d-9395-79a43c316fb3" name="Default Changelist" comment="Add frontend HTML file for prenota.php">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prenota.html" beforeDir="false" afterPath="$PROJECT_DIR$/prenota.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="update_html" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -183,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615290693321</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated prenota.html adding a date field">
+      <created>1615627033248</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615627033248</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add sql schema">
+      <created>1615628619128</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615628619128</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +224,8 @@
     <MESSAGE value="First configuration" />
     <MESSAGE value="Add POST variables" />
     <MESSAGE value="Add frontend HTML file for prenota.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add frontend HTML file for prenota.php" />
+    <MESSAGE value="Updated prenota.html adding a date field" />
+    <MESSAGE value="Add sql schema" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add sql schema" />
   </component>
 </project>
