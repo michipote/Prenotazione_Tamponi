@@ -12,8 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f319d1f1-3371-4a6d-9395-79a43c316fb3" name="Default Changelist" comment="Add frontend HTML file for prenota.php">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_prenotazioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/lista_prenotazioni.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prenota.php" beforeDir="false" afterPath="$PROJECT_DIR$/prenota.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prenota.html" beforeDir="false" afterPath="$PROJECT_DIR$/prenota.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
