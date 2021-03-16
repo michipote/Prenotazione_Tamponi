@@ -11,10 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f319d1f1-3371-4a6d-9395-79a43c316fb3" name="Default Changelist" comment="Add frontend HTML file for prenota.php">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bbfa4a21-2a04-49a4-b676-b565136549a8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bbfa4a21-2a04-49a4-b676-b565136549a8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/lista_prenotazioni.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lista_prenotazioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/lista_prenotazioni.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prenota.php" beforeDir="false" afterPath="$PROJECT_DIR$/prenota.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="update_html" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -135,7 +134,7 @@
       <workItem from="1615282661740" duration="7873000" />
       <workItem from="1615622907017" duration="883000" />
       <workItem from="1615631600741" duration="1172000" />
-      <workItem from="1615888691431" duration="1240000" />
+      <workItem from="1615888691431" duration="5039000" />
     </task>
     <task id="LOCAL-00001" summary="First configuration">
       <created>1615024160342</created>
@@ -214,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615628722393</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add vendor folder to .gitignore">
+      <created>1615892035377</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615892035377</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +250,7 @@
     <MESSAGE value="Add frontend HTML file for prenota.php" />
     <MESSAGE value="Updated prenota.html adding a date field" />
     <MESSAGE value="Add sql schema" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add sql schema" />
+    <MESSAGE value="Add vendor folder to .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add vendor folder to .gitignore" />
   </component>
 </project>

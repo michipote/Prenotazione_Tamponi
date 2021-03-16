@@ -4,7 +4,7 @@ include_once("config.php");
 
 //Variabili valorizzate tramite POST
 $codice_fiscale = $_POST['codice'];
-$data_ora = $_POST['giorno'];
+$giorno = $_POST['giorno'];
 
 function generateRandomString($length = 6) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -27,7 +27,7 @@ $stmt = $pdo->prepare($sql);
 $stmt->execute(
     [
         'codice_fiscale' => $codice_fiscale,
-        'giorno' => $data_ora,
+        'giorno' => $giorno,
         'codice' => $codice
     ]
 );
