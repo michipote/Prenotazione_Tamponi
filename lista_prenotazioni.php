@@ -7,7 +7,8 @@ $sql = "SELECT * FROM prenotazione";
 
 $stmt = $pdo->query($sql);
 
-//ES: formatta il risultato con HTML
+$result = $stmt->fetchAll();
+
 echo "<pre>";
-var_dump($stmt->fetchAll());
+var_dump($stmt);
 echo "</pre>";

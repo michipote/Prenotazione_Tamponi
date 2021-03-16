@@ -1110,10 +1110,23 @@
       <DataType>date|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="352" parent="348" name="PRIMARY">
+    <column id="352" parent="348" name="codice">
+      <Position>4</Position>
+      <DataType>varchar(6)|0s</DataType>
+    </column>
+    <index id="353" parent="348" name="prenotazione_codice_uindex">
+      <ColNames>codice</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="354" parent="348" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>idprenotazione</ColNames>
       <Primary>1</Primary>
+    </key>
+    <key id="355" parent="348" name="prenotazione_codice_uindex">
+      <ColNames>codice</ColNames>
+      <UnderlyingIndexName>prenotazione_codice_uindex</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>

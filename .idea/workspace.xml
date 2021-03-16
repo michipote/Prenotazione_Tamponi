@@ -11,7 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f319d1f1-3371-4a6d-9395-79a43c316fb3" name="Default Changelist" comment="Add frontend HTML file for prenota.php">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bbfa4a21-2a04-49a4-b676-b565136549a8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bbfa4a21-2a04-49a4-b676-b565136549a8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista_prenotazioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/lista_prenotazioni.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prenota.php" beforeDir="false" afterPath="$PROJECT_DIR$/prenota.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +95,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.rest-api_1#1">
+  <component name="RunManager" selected="Database Script.prenotazione.sql">
+    <configuration name="prenotazione.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="bbfa4a21-2a04-49a4-b676-b565136549a8/schema/prenotazione_tamponi/table/prenotazione.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
     <configuration name="rest-api_1#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -106,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.prenotazione.sql" />
         <item itemvalue="HTTP Request.rest-api_1#1" />
         <item itemvalue="PHP Script.prenota.php" />
       </list>
@@ -125,6 +134,8 @@
       <workItem from="1615030826389" duration="484000" />
       <workItem from="1615282661740" duration="7873000" />
       <workItem from="1615622907017" duration="883000" />
+      <workItem from="1615631600741" duration="1172000" />
+      <workItem from="1615888691431" duration="1240000" />
     </task>
     <task id="LOCAL-00001" summary="First configuration">
       <created>1615024160342</created>
@@ -196,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615628619128</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add sql schema">
+      <created>1615628722393</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615628722393</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
