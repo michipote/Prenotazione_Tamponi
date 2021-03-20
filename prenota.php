@@ -37,4 +37,4 @@ if($b < 3) {
     header('location: lista_prenotazioni.php');
     exit(0);
 }
-else echo "Massimo prenotazioni raggiunto";
+else echo "Massimo prenotazioni raggiunto in questa data";
