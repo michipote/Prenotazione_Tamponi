@@ -21,7 +21,7 @@ $query = "SELECT COUNT(*) FROM prenotazione WHERE giorno = $giorno";
 $a = $pdo->query($query);
 $b = $a->fetchAll();
 
-if($b < 5) {
+if($b < 3) {
     $sql = "INSERT INTO prenotazione VALUES(null, :codice_fiscale, :giorno, :codice)";
 
     $stmt = $pdo->prepare($sql);
