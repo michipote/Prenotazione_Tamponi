@@ -6,7 +6,7 @@ include_once("config.php");
 $codice_fiscale = $_POST['codice'];
 $giorno = $_POST['giorno'];
 
-function generateRandomString($length = 6) {
+function generateRandomString($length = 10) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
@@ -23,9 +23,7 @@ $b = $a->fetchAll();
 
 if($b < 3) {
     $sql = "INSERT INTO prenotazione VALUES(null, :codice_fiscale, :giorno, :codice)";
-
     $stmt = $pdo->prepare($sql);
-
     $stmt->execute(
         [
             'codice_fiscale' => $codice_fiscale,
@@ -33,7 +31,6 @@ if($b < 3) {
             'codice' => $codice
         ]
     );
-
     header('location: lista_prenotazioni.php');
     exit(0);
 }
