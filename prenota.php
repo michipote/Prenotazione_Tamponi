@@ -17,21 +17,24 @@ function generateRandomString($length = 6) {
 }
 $codice = generateRandomString();
 
-//Query di inserimento preparata
-$sql = "INSERT INTO prenotazione VALUES(null, :codice_fiscale, :giorno, :codice)";
+$query = "SELECT COUNT(*) FROM prenotazione WHERE giorno = $giorno";
+$a = $pdo->query($query);
+$b = $a->fetchAll();
 
-//Inviamo la query al database che la tiene in pancia
-$stmt = $pdo->prepare($sql);
+if($b < 5) {
+    $sql = "INSERT INTO prenotazione VALUES(null, :codice_fiscale, :giorno, :codice)";
 
-//Inviamo i dati conreti che verranno messi al posto dei segnaposto
-$stmt->execute(
-    [
-        'codice_fiscale' => $codice_fiscale,
-        'giorno' => $giorno,
-        'codice' => $codice
-    ]
-);
+    $stmt = $pdo->prepare($sql);
 
-//Ridirige il browser verso la pagina indicata nella location
-header('location: lista_prenotazioni.php');
-exit(0);
+    $stmt->execute(
+        [
+            'codice_fiscale' => $codice_fiscale,
+            'giorno' => $giorno,
+            'codice' => $codice
+        ]
+    );
+
+    header('location: lista_prenotazioni.php');
+    exit(0);
+}
+else echo "Massimo prenotazioni raggiunto";
