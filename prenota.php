@@ -17,6 +17,7 @@ function generateRandomString($length = 10) {
 }
 $codice = generateRandomString();
 
+
 $query = "SELECT COUNT(*) FROM prenotazione WHERE giorno = $giorno";
 $a = $pdo->query($query);
 $b = $a->fetchAll();
